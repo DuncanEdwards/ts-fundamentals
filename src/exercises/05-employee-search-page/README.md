@@ -6,7 +6,8 @@ There is an endpoint in the [`supporting-apis`](https://github.com/DuncanEdwards
 
 1. Your first mission is to create an `Employee` type to model this data
 2. Create an `EmployeesTable` component that can display a list of Employees (use MUI table - https://mui.com/material-ui/react-table/)
-3. Create an employee page which calls the above API (using [Axios](https://www.npmjs.com/package/axios)) on page load and populates the `EmployeesTable`
+3. Create an employee page which calls the above API (using [Axios](https://www.npmjs.com/package/axios)) on page load and populates the `EmployeesTable`. You will need to utilize `useEffect`:[https://react.dev/reference/react/useEffect]
+   and `useState`:[https://react.dev/reference/react/useState]
 
 ### Second Employee search exercise
 
@@ -22,7 +23,7 @@ And every time the user adds a string and presses "search", I want it to call th
 Now I want you to wire it all together so we have a page like this:
 ![alt text](image.png)
 
-Whenever the user changes the search text and clicks the button (or presses the `Enter` key), the search results update. You should have a basic structure of:
+Whenever the user changes the search text and clicks the button (or presses the `Enter` key), the search results update. This can be achieved with `useState` and by utilizing the `dependency array`[https://react.dev/reference/react/useEffect#passing-a-dependency-array] of useEffect. You should have a basic structure of:
 `EmployeePage`, which contains an `EmployeeSearch` component and an `EmployeesTable`.
 
 ### Extension
