@@ -1,6 +1,37 @@
-# Getting Started with Create React App
+# Welcome to TypeScript Fundamentals!
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+
+## What is the purpose of these lessons
+
+1. Understand the basics of TypeScript syntax
+   - Functions
+   - Functional component differs from a function
+   - Passing typed props to a component
+   - String Literals
+2. Introduction to Test Driven Development (TDD)
+   - React Testing Library
+   - Snapshot testing
+3. Utilizing TypeScript string literals
+4. Introduction to Styled components
+   - Static Styled components
+   - Styled components with props
+   - Effectively testing styled components
+
+## Exercises
+
+01 - Non Component Functions
+
+[add two numbers](/src/exercises/01-non-component-funcs/add-two-numbers/README.md)\
+[get full name](/src/exercises/01-non-component-funcs/get-full-name/README.md)
+
+[02 - My First Component](/src/exercises/02-my-first-component/my-first-component/README.md)
+
+[03 - Alert Type Component](/src/exercises/03-alert-type-component/README.md)
+
+[04 - Employee Badge Component](/src/exercises/04-employee-badge-component/README.md)
+
+[05 - Employee Badge Component](/src/exercises/05-employee-search-page/README.md)
 
 ## Available Scripts
 

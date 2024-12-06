@@ -1,11 +1,9 @@
 import logo from "./logo.svg";
 import "./App.css";
-import { EmployeePage } from "./temporary-exercises/EmployeePage";
 
 function App() {
   return (
     <div className="App">
-      <EmployeePage />
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>

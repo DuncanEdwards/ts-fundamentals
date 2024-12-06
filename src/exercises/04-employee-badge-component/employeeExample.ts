@@ -1,6 +1,6 @@
 import { Employee } from "./Employee";
 
-const employee: Employee = {
+export const employee: Employee = {
   details: {
     firstName: "Tinky",
     lastName: "Winky",

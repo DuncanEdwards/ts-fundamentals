@@ -43,4 +43,4 @@ Snapshot testing is an effective way to test a stateless component. Write unit t
 
 3. Change the component to return an H3 instead of an H2 and see what happens?
 
-4. What could be the danger of this approach?
+4. What could be the potential danger of this approach?
